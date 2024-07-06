@@ -1,0 +1,79 @@
+.bg-green-custom{
+    background: #c44569;
+}
+.bg-info-custom{
+    background: #778beb;
+}
+.small-box-header {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgba(255, 255, 255, 0.8);
+    display: block;
+    padding: 3px 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    z-index: 10;
+}
+
+.card-body.small-box {
+    box-shadow: none !important;
+    margin: 0 !important;
+}
+
+.small-box-footer {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 3px 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    z-index: 10;
+}
+
+.small-box-footer a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    display: block;
+}
+
+.small-box-footer a i {
+    margin-left: 5px;
+}
+.small-box-header.table-name {
+    font-family: Righteous;
+    font-size: 22px;
+}
+.inner-img img {
+    max-width: 100%;
+}
+.inner-img {
+    text-align: right;
+}
+.inner-text {
+    text-align: left !important;
+}
+
+/* Responsive styles */
+@media (min-width: 1400px) {
+    .inner-img img {
+        width: 130px;
+    }
+}
+@media (max-width: 575px) {
+    .inner-img img {
+        width: 130px;
+    }
+    .inner-img {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .inner-text {
+        text-align: center !important;
+    }
+    .small-box p {
+        font-size: 15px;
+    }
+}

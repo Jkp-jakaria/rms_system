@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"!important;
+}
+/* Navbar CSS Start */
+.user-panel .info a {
+    color: #7b809a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+.nav-css{
+    background-color: #f0f2f5!important;
+    border: none;
+}
+.main-header .navbar-nav .nav-item {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+input.nav-search {
+    background: transparent;
+    height: 30px;
+}
+.search-btn {
+    border: 1px solid #ced4da;
+    height: 30px;
+    font-size: 14px;
+}
+/* Navbar CSS End */
+
+/* Main sidebar CSS Start */
+.wrapper {
+    background: #f0f2f5;
+}
+aside.main-sidebar {
+    margin: 10px 10px;
+    width: 220px;
+    border-radius: 10px;
+    background: #393940!important;
+}
+[class*=sidebar-dark-] .nav-sidebar>.nav-item.menu-open>.nav-link, [class*=sidebar-dark-] .nav-sidebar>.nav-item:hover>.nav-link, [class*=sidebar-dark-] .nav-sidebar>.nav-item>.nav-link:focus {
+    background-image: linear-gradient(195deg, #EC407A 0%, #D81B60 100%)!important;
+    color: #fff;
+}
+aside.main-sidebar .nav-link {
+    width: auto!important;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 300;
+}
+i.fa.fa-tachometer {
+    font-size: 18px;
+}
+/* Main sidebar CSS End */
+
+/* Main Content CSS Start */
+.content-wrapper {
+    background-color: #f0f2f5!important;
+}
+.content-header {
+    padding: 10px .5rem;
+}
+.content-header h1 {
+    font-size: 20px;
+    margin: 0;
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+}
+li.breadcrumb-item, li.breadcrumb-item a {
+    color: #344767;
+    font-family: 'roboto', sans-serif;
+    font-size: 14px;
+}
+/* Main Content CSS Start */
+
+/* Dashboard CSS */
+.d-icon {
+    display: inline-block;
+    color: #111111;
+    height: 1em;
+    width: 1em;
+    fill: currentColor;
+    stroke: none;
+}
+.position-absolute {
+    position: absolute !important;
+}
+.mt-n4 {
+    margin-top: -1.5rem !important;
+}
+.shadow-dark {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(64, 64, 64, 0.4) !important;
+}
+.bg-gradient-dark {
+    background-image: linear-gradient(195deg, #42424a 0%, #191919 100%);
+}
+.icon-shape {
+    width: 48px;
+    height: 48px;
+    background-position: center;
+    border-radius: 0.5rem;
+}
+.icon-lg {
+    width: 50px;
+    height: 50px;
+}
+.icon-lg i {
+    top: 31%;
+    font-size: 1.5rem;
+}
+.icon-shape i {
+    color: #fff!important;
+    top: 11px;
+    position: relative;
+}
+p.text-sm {
+    font-size: 13px!important;
+    font-weight: 300;
+}
+h4.mb-0 {
+    font-size: 19px;
+}
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: 0.25;
+}
+hr.horizontal.dark {
+    background-color: #7b809a33;
+}
+.card-footer {
+    background-color: #fff;
+}
+.card-footer p {
+    font-size: 14px!important;
+    font-weight: 300;
+}
+.card.d-card .card-header {
+    border: 0;
+}
+.card.d-card {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.d-card .card-footer{
+    border-radius: 8px;
+}
+.bg-gradient-defult {
+    background-image: linear-gradient(195deg, #EC407A 0%, #D81B60 100%);
+}
+.shadow-primary {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(233, 30, 99, 0.4) !important;
+}
+.shadow-success {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(76, 175, 80, 0.4) !important;
+}
+.shadow-info {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(0, 188, 212, 0.4) !important;
+}
+.card .card-body {
+    font-family: "Roboto", Helvetica, Arial, sans-serif !important;
+}
+.card.d-card.my-card {
+    height: 120px;
+}
+/* chart row css */
+.border-radius-lg{
+    border-radius: 8px;
+}
+/* Dashboard CSS End*/
+
+/* invoice CSS */
+.invoice {
+    border-top: 4px solid #e73374!important;
+    border-bottom: 4px solid #e73374!important;
+}
+
+/* Responsive CSS */
+@media (min-width: 993px){
+    body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .content-wrapper, body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .main-footer, body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .main-header {
+        margin-left: 230px!important;
+    }
+}
+/* Manage Page CSS */
+.my-submit-btn{
+    background-color: #e73374!important;
+    border-color: #e73374!important;
+}
+
+.btn-info {
+    background: #00d8d6!important;
+    border-color: #00d8d6!important;
+}
+
+.btn-primary {
+    background: #0fbcf9!important;
+    border-color: #0fbcf9!important;
+}
+
+.btn-danger {
+    background: #f53b57!important;
+    border-color: #f53b57!important;
+}
+
+.btn-success {
+    background: #05c46b!important;
+    border-color: #05c46b!important;
+    border-radius: 0!important;
+}
+.page-link {
+    color: #e73374;
+}
+.page-link:hover {
+    color: #c50a4f;
+}
+.page-item.active .page-link {
+    background-color: #e73374;
+    border-color: #e73374;
+}
+ul.pagination input {
+    padding: 0.5rem 0.75rem;
+    margin-left: 5px;
+    line-height: 1.25;
+    color: #e73374;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}

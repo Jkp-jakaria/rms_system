@@ -1,0 +1,11 @@
+<?php
+if($page=="create-production-order"){
+	$found=include("views/pages/production/create_production_order.php");
+}elseif($page=="create-bom"){
+	$found=include("views/pages/production/create_bom.php");
+}elseif($page=="built-product"){
+	$found=include("views/pages/production/built_product.php");
+}elseif($page=="create-raw-materials"){
+	$found=include("views/pages/production/create_raw_materials.php");
+}
+?>

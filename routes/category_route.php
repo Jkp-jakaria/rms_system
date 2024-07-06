@@ -1,0 +1,13 @@
+<?php
+if($page=="create-category"){
+	$found=include("views/pages/category/create_category.php");
+}elseif($page=="edit-category"){
+	$found=include("views/pages/category/edit_category.php");
+}elseif($page=="categories"){
+	$found=include("views/pages/category/manage_category.php");
+}elseif($page=="details-category"){
+	$found=include("views/pages/category/details_category.php");
+}elseif($page=="view-category"){
+	$found=include("views/pages/category/view_category.php");
+}
+?>

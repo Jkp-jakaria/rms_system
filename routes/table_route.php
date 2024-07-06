@@ -1,0 +1,13 @@
+<?php
+if($page=="create-table"){
+	$found=include("views/pages/table/create_table.php");
+}elseif($page=="edit-table"){
+	$found=include("views/pages/table/edit_table.php");
+}elseif($page=="tables"){
+	$found=include("views/pages/table/manage_table.php");
+}elseif($page=="details-table"){
+	$found=include("views/pages/table/details_table.php");
+}elseif($page=="view-table"){
+	$found=include("views/pages/table/view_table.php");
+}
+?>
